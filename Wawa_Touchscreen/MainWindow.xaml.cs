@@ -77,5 +77,14 @@ namespace Wawa_Touchscreen
         {
 
         }
+        private void confirm_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Total price is " + Items.Items.Count + 1 * 2);
+        }
+
+        private void cancel_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
