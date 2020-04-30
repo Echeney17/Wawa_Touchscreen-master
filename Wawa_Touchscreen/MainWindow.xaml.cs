@@ -27,6 +27,8 @@ namespace Wawa_Touchscreen
             {
                 confirm.Visibility = Visibility.Hidden;
                 cancel.Visibility = Visibility.Hidden;
+                Items_Label.Visibility = Visibility.Hidden;
+                Items.Visibility = Visibility.Hidden;
             }
         }
 
