@@ -23,6 +23,11 @@ namespace Wawa_Touchscreen
         public MainWindow()
         {
             InitializeComponent();
+            if (Items.Items.Count == 0)
+            {
+                confirm.Visibility = Visibility.Hidden;
+                cancel.Visibility = Visibility.Hidden;
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
