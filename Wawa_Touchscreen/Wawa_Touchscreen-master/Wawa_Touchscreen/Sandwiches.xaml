@@ -11,7 +11,7 @@
             <ColumnDefinition Width="325*"/>
             <ColumnDefinition Width="469*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="&#x9;&#x9;Make A Selection" HorizontalAlignment="Left" Margin="146,25,0,0" VerticalAlignment="Top" Width="513" FontFamily="Arial Black" FontSize="20" Grid.ColumnSpan="2"/>
+        <Label Content="&#x9;&#x9;Make A Selection" HorizontalAlignment="Left" Margin="124,25,0,0" VerticalAlignment="Top" Width="513" FontFamily="Arial Black" FontSize="20" Grid.ColumnSpan="2"/>
         <Button x:Name="Sourdough_Sandwich" Content="" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="168" Height="89" Click="Sourdough_Sandwich_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Image3.png"/>
@@ -54,8 +54,8 @@
             </Button.Background>
         </Button>
         <Label Content="Hoagies" HorizontalAlignment="Left" Margin="206.297,329,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.501,0.278" Foreground="#FFB61E1E" FontWeight="Bold" Grid.Column="1"/>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="367.297,25,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_1" Grid.Column="1"/>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="367.297,381,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_2" Grid.Column="1"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="356,25,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_1" Grid.Column="1"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="356,351,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_2" Grid.Column="1"/>
 
     </Grid>
 </Window>

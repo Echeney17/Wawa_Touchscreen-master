@@ -8,12 +8,12 @@
         Title="Beverages" Height="450" Width="800">
     <Grid x:Name="BeveragesWindow" Background="#FFFAF6F1">
         <Label x:Name="lblFruitSmoothies" Content="Fruit Smoothies" HorizontalAlignment="Left" Margin="3,162,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
-        <Label x:Name="lblChaiTeas" Content="Chai Teas" HorizontalAlignment="Left" Margin="416,162,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
+        <Label x:Name="lblChaiTeas" Content="Chai Teas" HorizontalAlignment="Left" Margin="427,162,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
         <Label x:Name="lblCreamSmoothies" Content="Cream Smoothies" HorizontalAlignment="Left" Margin="205,162,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
         <Label x:Name="lblLattes" Content="Lattes" HorizontalAlignment="Left" Margin="35,385,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
-        <Label x:Name="lblHotChocolates" Content="Hot Chocolates" HorizontalAlignment="Left" Margin="214,387,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
-        <Label x:Name="lblMacchiatos" Content="Macchiatos" HorizontalAlignment="Left" Margin="416,387,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
-        <ListBox x:Name="ltbOrderItems" HorizontalAlignment="Left" Height="251" Margin="643,70,0,0" VerticalAlignment="Top" Width="126" SelectionChanged="ltbOrderItems_SelectionChanged">
+        <Label x:Name="lblHotChocolates" Content="Hot Chocolates" HorizontalAlignment="Left" Margin="206,385,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
+        <Label x:Name="lblMacchiatos" Content="Macchiatos" HorizontalAlignment="Left" Margin="427,385,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
+        <ListBox x:Name="ltbOrderItems" HorizontalAlignment="Left" Height="251" Margin="636,81,0,0" VerticalAlignment="Top" Width="126" SelectionChanged="ltbOrderItems_SelectionChanged">
             <ListBoxItem x:Name="lblMangoSmoothie" Content=""/>
             <ListBoxItem x:Name="lblIcedCoffee" Content=""/>
             <ListBoxItem x:Name="lblRoastBeefSandwich" Content=""/>
