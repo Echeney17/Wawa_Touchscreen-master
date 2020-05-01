@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image Source="Image1.png" Stretch="Fill" Opacity="0.3" OpacityMask="Black"/>
-        <TextBox HorizontalAlignment="Left" Height="54" Margin="657,365,0,0" TextWrapping="Wrap" Text="Evan Cheney&#xD;&#xA;Jason Reilly&#xD;&#xA;Asraa Alkurdi " VerticalAlignment="Top" Width="135"/>
+        <TextBox HorizontalAlignment="Left" Margin="657,365,0,1" TextWrapping="Wrap" Text="Evan Cheney&#xA;Jason Reilly&#xA;Chi Lai" Width="135"/>
         <ListBox x:Name="Items" HorizontalAlignment="Left" Height="121" Margin="646,30,0,0" VerticalAlignment="Top" Width="125" SelectionChanged="ListBox_SelectionChanged"/>
         <Label x:Name="Items_Label" Content="Items Selected&#xD;&#xA;" HorizontalAlignment="Left" Margin="656,4,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
         <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top"/>
